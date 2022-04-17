@@ -60,7 +60,7 @@ Logging flight parameters is a powerful tool used control and debug the quadcopt
         # When leaving this "with" section, the connection is automatically closed
 ```
 
-### Motion Control
+## Motion Control
 
 The `cflib` library simplifies motion controls by providing a high-level framework with which to control the drone. Functions that allow the drone to move vertically and horizontally have been provided. However, note that these functions do not apply closed-loop control; these drone will drift if these high-level commands are used without feedback. Below is an example of a simple flight command.
 
